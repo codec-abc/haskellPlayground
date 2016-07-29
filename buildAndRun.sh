@@ -1,0 +1,1 @@
+clear && cabal build && ./dist/build/haskellProj/haskellProj
