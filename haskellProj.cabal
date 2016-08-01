@@ -17,5 +17,5 @@ cabal-version:       >=1.8
 executable haskellProj
   main-is: Main.hs
   hs-source-dirs: src
-  other-modules: Triangle, PascalTriangle, TransposeLines
+  other-modules: Triangle, PascalTriangle, TransposeLines, Challenge263
   build-depends:       base >=4.6

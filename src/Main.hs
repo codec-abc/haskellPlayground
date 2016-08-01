@@ -3,6 +3,7 @@ module Main where
     import PascalTriangle
     import Data.List
     import TransposeLines
+    import Challenge263
     
     iter = PascalTriangle.getIter
     baseTri = PascalTriangle.basePascalTriangle
@@ -10,10 +11,10 @@ module Main where
     main = let
         z = iter 5 baseTri in
             do
-                putStrLn $ show transposed
+                -- putStrLn $ show transposed
                 -- putStrLn $ show z
                 -- putStrLn $ show Triangle.firstTri
                 -- putStrLn $ show Triangle.secondTri
                 -- putStrLn $ show Triangle.thirdTri
-                
+                putStr ""
 
